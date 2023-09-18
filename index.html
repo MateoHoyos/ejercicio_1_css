@@ -2,10 +2,13 @@
 <html lang="es">
 
   <head>
+    
     <meta charset="utf-8" />
     <title>Comida Colombiana</title>
     <meta name="Mateo Hoyos" content="Programacion Web 2023-2" />
     <link rel="icon" href="icono.png" type="image/x-icon" /> 
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
   </head>
 
@@ -17,11 +20,9 @@
             <img
               src="https://cdn.colombia.com/sdi/2023/04/19/3-recetas-caseras-de-los-platos-colombianos-mas-representativos-1139142.webp"
               alt="Comida de colombia"
-              width="600"
-              height="341" />
-            <figcaption>
-            Foto de Tripadvisor: Mi rinconcito colombiano
-            </figcaption>
+              width="1000"
+              height="600" />
+            
           </figure>     
     </header>
 
@@ -33,32 +34,45 @@
             <li><a href="#Contacto">Contacto</a></li>
           </ul>
     </nav>
+   
+   
+    
+
 
     <main>
-      <section>
+      <section class="patillos">
         <h2>Platillos</h2>
-        <article>
-          <h2>Bandeja Paisa</h2>
-          <img
-          src="https://www.unacolombianaencalifornia.com/wp-content/uploads/2012/08/bandeja_paisa-1-1-e1466957278785-900x600.jpg"
-          alt="Bandeja paisa imagen"
-          width="300"
-          height="200" />
-          <p>La bandeja paisa es uno de los platos más representativos de Colombia y la insignia de la gastronomía antioqueña. Es propio de esta región, Antioquia. Una de sus características es la abundancia y variedad de alimentos. Tanto así que la bandeja paisa completa solo cabe servirla en platos grandes llamados bandejas.</p>
-          <a href="bandeja.html">Bandeja Paisa</a>
+        <article class="bandeja">
+            <div class="bandeja_imagen">
+              <h3>Bandeja Paisa</h2>
+              <img
+              src="https://www.unacolombianaencalifornia.com/wp-content/uploads/2012/08/bandeja_paisa-1-1-e1466957278785-900x600.jpg"
+              alt="Bandeja paisa imagen"
+              width="300"
+              height="200" />
+            </div> 
+            <div class="bandeja_texto">
+                <p>La bandeja paisa es uno de los platos <br> más representativos de Colombia y la insignia <br>  de la gastronomía antioqueña. Es propio de esta región, Antioquia. <br> Una de sus características es la abundancia y variedad de alimentos.<br> Tanto así que la bandeja paisa completa solo cabe  servirla en platos grandes llamados bandejas.</p>
+               <a href="bandeja.html">Bandeja Paisa</a>
+            </div>
         </article>
-        <article>
-          <h2>Sancocho</h2> 
-          <img
-          src="https://cdn7.kiwilimon.com/brightcove/7752/640x640/7752.jpg.webp"
-          alt="sancocho"
-          width="200"
-          height="200" /> 
-          <p>Prueba este sancocho colombiano, una receta de deliciosa sopa con extraordinario sabor y gran tradición en Colombia. Esta sopa popular colombiana está hecha con carne, pollo, cerdo y costilla. Si quieres probar una sazón diferente, no puedes perderte este sancocho colombiano.</p>
+      
+        <article class="sancocho">
+          <h3>Sancocho </h2> 
+          <div class="sancocho_imagen">
+            <img
+            src="https://cdn7.kiwilimon.com/brightcove/7752/640x640/7752.jpg.webp"
+            alt="sancocho"
+            width="200"
+            height="200" /> 
+         </div>
+         <div class="sancocho_texto">
+          <p>Prueba este sancocho colombiano, una receta de deliciosa <br>  sopa con extraordinario sabor y gran tradición en Colombia. <br> Esta sopa popular colombiana está hecha con carne, pollo, cerdo y costilla. <br> Si quieres probar una sazón diferente, no puedes perderte este sancocho colombiano.</p>
           <a href="sancocho.html">Sancocho</a>
+        </div>
         </article>
       </section>
-
+      <hr>
       <section>
         <h2>Ingredientes más importantes</h2>
         <img
@@ -66,11 +80,11 @@
           alt="Ingredientes de colombia"
           width="350"
           height="200" /> 
-          <p>La cocina colombiana es amplia y diversa. La versatilidad y la combinación de sabores son dos de sus características principales, gracias en parte a su biodiversidad. Es una cocina sencilla que prioriza los ingredientes naturales; pescados, carnes, verduras, frutas tropicales… ¿Quieres conocerla un poco mejor?</p>
+          <p>La cocina colombiana es amplia y diversa.<br> La versatilidad y la combinación de sabores son dos de sus características principales, gracias en parte a su biodiversidad. <br> Es una cocina sencilla que prioriza los ingredientes naturales; pescados, carnes, verduras, frutas tropicales…<br> ¿Quieres conocerla un poco mejor?</p>
           <a href="ingredientes.html">Ingredientes</a>
         </section>       
     </main>
-
+    <hr>
     <footer>
         <p id="Contacto">Sitio web de comida Colombiana desarrollado por Mateo Hoyos Mesa. Contacto: mateo.hoyos@udea.edu.co</p>
       </footer>

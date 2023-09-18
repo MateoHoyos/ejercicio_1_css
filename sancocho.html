@@ -6,6 +6,7 @@
     <title>Comida Colombiana</title>
     <meta name="Mateo Hoyos" content="Programacion Web 2023-2" />
     <link rel="icon" href="icono.png" type="image/x-icon" /> 
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
   </head>
 
@@ -19,7 +20,7 @@
               width="600"
               height="341" />
             <figcaption>
-            Foto de Tripadvisor: Mi rinconcito colombiano
+            
             </figcaption>
           </figure>     
     </header>
@@ -34,19 +35,21 @@
 
     <main>
         <h2>Sancocho</h2>
-        <img
-              src="https://cdn.colombia.com/gastronomia/2018/11/16/sancocho-de-carne-1593.webp"
-              alt="Sancocho"
-              width="600"
-              height="341" />
-        <section>
+        <div class="imagen_bandeja"> 
+          <img
+                src="https://cdn.colombia.com/gastronomia/2018/11/16/sancocho-de-carne-1593.webp"
+                alt="Sancocho"
+                width="600"
+                height="341" />
+        </div>
+        <section class="Descripcion_bandeja">
             <h2>Descripción</h2>  
-            <p>El sancocho es uno de los platos típicos más reconocidos de Colombia (aunque también es un plato muy común en la cocina panameña y del Caribe como República Dominicana). Es un caldo o sopa normalmente espeso a base de tubérculos como la papa, la yuca, el ñame, la arracacha y ahuyama. Los ingredientes más destacados del Sancocho y que en esta receta vamos a usar son la yuca, el plátano y la papa, al que se agrega alguna carne, (pollo, gallina, cerdo, pescado, res, costilla, cola o rabo, etc), lo cual le da el nombre final al sancocho, por ejemplo, sancocho de "carne" o "entero", "de gallina", "de costilla", "de mondongo", "de rabo" (carne de res, gallina y cerdo), entre otros</p>  
+            <p>El sancocho es uno de los platos típicos más reconocidos de Colombia. <br> Es un caldo o sopa normalmente espeso a base de tubérculos <br> como la papa, la yuca, el ñame, la arracacha y ahuyama.<br> Los ingredientes más destacados del Sancocho y que en esta receta vamos a<br> usar son la yuca, el plátano y la papa, al que se agrega alguna carne,<br> (pollo, gallina, cerdo, pescado, res, costilla, cola o rabo, etc), <br>lo cual le da el nombre final al sancocho, por ejemplo, sancocho de "carne" o "entero", "de gallina",<br> "de costilla", "de mondongo", "de rabo" (carne de res, gallina y cerdo), entre otros</p>  
         </section>
 
         <section>
             <h2>Ingredientes Para Sancocho de carne </h2>
-            <ul>
+            <ul class="ingredientes_bandeja">
                 <li>1 unidad de zanahoria</li>
                 <li>al gusto de sal</li>
                 <li>1/2 unidad de cebolla cabezona</li>
@@ -68,7 +71,7 @@
         </section>
         <section>
             <h2>Modo de preparación</h2>
-            <ol>
+            <ol class="mododeprepara">
                 <li>En una olla express poner las dos cucharadas de aceite vegetal, dejar calentar y sofreír la cebolla con el ajo picados y una pizca de sal.</li>
                 <li>Después de 2 minutos, añadir el pimentón, el tomate y cilantro picados. </li>
                 <li>Luego, adicionar el sazón, color, comino y otra pizca de sal. </li>
@@ -88,7 +91,7 @@
 
 
 
-
+    <hr>
     <footer>
         <p id="Contacto">Sitio web de comida Colombiana desarrollado por Mateo Hoyos Mesa. Contacto: mateo.hoyos@udea.edu.co</p>
       </footer>  

@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(227, 240, 255);
+ }
+
+
+
+h1{
+    font-size:70px;
+    text-align:center;
+    font-weight:bold;
+    margin:-8px;
+    color: rgb(182, 30, 30);
+    text-shadow: rgb(77, 128, 247) 6px 0;
+    background-color: rgb(255, 204, 0);
+    
+}
+
+header{
+    text-align:center;
+    
+    }
+
+nav{
+    border: solid;
+    text-align:center;
+}
+
+nav li{
+    display:inline-block;
+    text-align:center;
+    padding:5px 10px;
+    }
+
+nav a{
+        text-decoration:none;
+        color:inherit;
+        font-size:20px;  
+    }
+
+a:hover{
+    font-weight: bold;
+}
+
+
+footer{
+    text-align:center;
+
+    }
+
+
+main{
+    
+    text-align:center;
+    
+    }
+ 
+
+.patillos{
+   
+    display:inline-block;  
+}  
+
+h2{
+    color: rgb(160, 107, 11);
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+.bandeja{
+    padding:30px;
+    display:inline-block;
+}
+
+
+.sancocho{
+    padding:30px;
+    display:inline-block;
+}
+
+
+
+
+
+.imagen_descri{
+    display:inline-block;  
+    
+}
+
+.imagen_bandeja{
+    display:inline-block; 
+    padding:30px;  
+}
+
+.Descripcion_bandeja{
+    display:inline-block; 
+    padding:30px;
+    text-align:start; 
+}
+
+.ingredientes_bandeja{
+    text-align:start; 
+}
+
+.mododeprepara{
+    text-align:start; 
+}
+
+
+.section1{
+    display:inline-block;
+}
+
+.imagen_ingre{
+    display:inline-block; 
+    padding:30px; 
+}
+
+.descri_ingre{
+    display:inline-block; 
+    text-align:start;
+    padding:30px; 
+}
